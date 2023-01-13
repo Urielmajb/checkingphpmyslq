@@ -12,6 +12,6 @@ if (mysqli_connect_error())
 //mensaje de la version del servidor 
 printf("MYSQL Server Version %s\n", mysqli_get_server_info($mysql));
 
-//salimos de la conexion
+//salimos de la conexionnn
 mysqli_close($mysql);
 ?>
