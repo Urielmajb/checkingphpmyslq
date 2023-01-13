@@ -1,4 +1,4 @@
 <?php
-//Obtiene la version de php
+//Obtiene la version de phps
     phpinfo();
 ?>
