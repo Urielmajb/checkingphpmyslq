@@ -10,7 +10,13 @@ define( 'WP_DEBUG_LOG', true ); //genera logs
 define('WP_DEBUG_DISPLAY', false ); //No muestra los errores en el sitio de manera publica, solo al administrador,
 @ini_set('display_errors',0);
 
-//cambiar el log generado a otra ruta.
+//depura errores si tenemos incluido javascrip en el sitioweb
+define( 'SCRIPT_DEBUG', true);
 
+//depura errores en la bdo
+define( 'SAVEQUERIES', true );
+
+//cambiar el log generado a otra ruta.
+//pendiente
 
 ?>
